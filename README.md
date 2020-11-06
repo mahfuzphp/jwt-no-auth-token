@@ -14,13 +14,6 @@ You can install the package via composer:
 composer require mahfuzrh/jwt-no-auth-token
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --provider="Mahfuzrh\JwtNoAuthToken\JwtNoAuthTokenServiceProvider" --tag="migrations"
-php artisan migrate
-```
-
 You can publish the config file with:
 ```bash
 php artisan vendor:publish --provider="Mahfuzrh\JwtNoAuthToken\JwtNoAuthTokenServiceProvider" --tag="config"
